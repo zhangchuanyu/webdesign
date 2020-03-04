@@ -1,0 +1,142 @@
+*{box-sizing: border-box;
+	padding: 0;
+	margin:0;
+}
+h3,p{
+	color:white;
+}
+body{background-image:url(../image/back.jpg);
+/*background-repeat:no-repeat; */
+background-attachment:fixed;
+background-size: 100% 100%; }
+header{
+	margin-left: 37%;
+	height: 40%;
+	width: 100%;
+/*	background-image: url(../image/header.jpg);
+*/
+}
+h1,h2{
+	color: white;
+}
+h1{/*padding-top: 30px;*/
+font-size: 65px;
+padding-right: 5%;
+}
+h2{
+	margin-left: 5%;
+}
+section div{	
+	margin-top: 2%;
+	display: inline-block;
+	width:60%; 
+	font-size: 25px;
+	/*background-color:#ffff99;*/
+}
+.summary {
+	/*padding-top: 2%;
+	padding-bottom: 7%;*/
+	/*margin-left: 20%;*/
+	display: inline-block;
+	margin-left: 22%;
+	text-shadow: -1px -1px 0 #000, 
+               1px -1px 0 #000,
+              -1px 1px 0 #000, 
+              1px 1px 0 #000;
+	}
+
+.preamble{
+	margin-left: 20%;
+}
+.preamble h3{
+	/*color: black;*/
+	text-align: center;
+
+	padding-bottom: 1%;
+}
+.preamble p{
+	position: relative;
+	text-align: center;
+    margin-left: 20%;
+	width: 60%;
+	/*background-color: #b3b300;*/
+	font-size: 30px;
+	display: none;
+	/*color: black;*/
+}
+.preamble p:hover{
+	display: block;
+	text-shadow: -1px -1px 0 #000, 
+               1px -1px 0 #000,
+              -1px 1px 0 #000, 
+              1px 1px 0 #000;
+	}
+.preamble h3:hover+p{
+	display: block;
+}
+section{
+	float: right;
+	padding-bottom: 5%;
+}
+.main p{
+	position: relative;
+	text-align: center;
+	margin-left: 20%;
+	width: 60%;
+	/*background-color: #b3b300;*/
+	font-size: 30px;
+	display: none;
+}
+.main p:hover{
+	display: block;
+	text-shadow: -1px -1px 0 #000, 
+               1px -1px 0 #000,
+              -1px 1px 0 #000, 
+              1px 1px 0 #000;
+
+}
+.main h3{
+	width: 60%;
+	text-align: center;
+	line-height: 90px;
+	margin-left: 20%;
+	font-size: 30px;
+	/*background-color: #b3b300;*/
+}
+.main h3:hover+p{
+	display: block;
+}
+.main{/*background-image: url(../image/niao.jpg);*/}
+aside{
+	float: left;
+display:inline;
+background-color: #4DDEDC;
+}
+.wrapper a{
+	color: hotpink;
+	font-size: 25px;	
+}
+li{display: inline;}
+li{ 
+	font-size: 20px;
+	color: #5C7C7C;
+}
+li>a:nth-child(2n){
+	font-size: 15px;
+	color: #446060;
+}
+footer {
+	background-color: #40EEE9;
+	margin-right: 30%;
+	position:fixed;
+	bottom: 0;
+	right:0;
+	text-align: right;
+	margin-bottom:0; 
+}
+
+footer a{
+	text-align: center;
+	color:  white;
+	font-size: 35px;
+}
